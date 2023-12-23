@@ -37,6 +37,7 @@
 }
 
 .black-nav .wrap li{
+    /* 设置列表横向 */
     float: left;
     position: relative;
 
@@ -139,6 +140,7 @@
     margin-top: 22.5px;
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
 
 }
 
@@ -163,4 +165,61 @@
 .logo:hover>.mi-logo{
     left: 55px;
 }
-/* 白色导航 end */
+
+.nav-bar{
+    width: 875px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+
+}
+
+.nav-bar li{
+    float: left;
+}
+
+.nav-bar li a{
+    color: #333;
+    padding: 41.5px 10px;
+}
+
+.nav-bar li a:hover{
+    color: #ff6700;
+}
+
+.nav-bar ul li a img{
+     margin-top: 22.5px;
+}
+.search{
+    width: 296px;
+    height: 100px;
+    float: right;
+}
+
+.search input{
+    /* 244-244=52 */
+    width: 244px;
+    height: 50px;
+    float: left;
+    border: 1px solid #e0e0e0;
+    /* 让input大小包括边框 */
+    box-sizing: border-box;
+    margin-top: 22.5px;
+    padding: 0 10px;
+    border-right: 0px;
+    outline: none;
+}
+
+.search button{
+    width: 52px;
+    height: 50px;
+    float: right;
+    margin-top: 22.5px;
+    border: 1px solid #e0e0e0;
+}
+
+.search button:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+/* 白色导航 end *
