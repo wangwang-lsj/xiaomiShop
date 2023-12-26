@@ -390,3 +390,80 @@
     width: 100%;
 }
 /* 广告模块 end */
+
+/* 内容模块 start */
+.content{
+    width: 100%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 4px 0 12px;
+}
+/* 内容模块 end */
+
+/* 手机模块 start */
+.title{
+    text-align: left;
+    color: #333;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+}
+.phone-box{
+    width: 100%;
+    height: 614px;
+}
+.phone-box-left{
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+.phone-box-right{
+    width: 992px;
+    height: 614px;
+    float: left;
+}
+.item{
+    /* 4元素平方992： */
+    /* 14 * 4 = 56  (992 - 56)/4 */
+    width: 234px;
+    height: 300px;
+    margin: 0 0 14px 14px;
+    background-color: #fff;
+    float: left;
+    padding: 20px 0;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+}
+.item:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+.item-img{
+    width: 160px;
+    margin-bottom: 19px;
+}
+.item-name{
+    width: 214px;
+    height: 21px;
+    color: #333;
+    line-height: 21px;
+    margin: 0 auto 2px;
+}
+.item-desc{
+    width: 214px;
+    height: 18px;
+    color: #b0b0b0;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 auto 10px;
+}
+.item-price{
+    color: #ff6700;
+    font-size: 14px;
+}
+.big-img{
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+}
+/* 手机模块 end */
